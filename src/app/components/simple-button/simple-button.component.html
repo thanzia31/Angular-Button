@@ -1,0 +1,12 @@
+
+
+<h1>Color Change on Button Click</h1>
+<label>Enter Color : </label>
+<input type="text" [(ngModel)]="colorInput" />
+<br><br>
+
+<button [ngStyle]="{ 'background-color': colorVar }" (click)="changeColor()">Submit</button>
+
+<br><br>
+
+<p style="padding-bottom: 20px;" *ngIf="errorMsg">{{ errorMsg }}</p>

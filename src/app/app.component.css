@@ -1,0 +1,22 @@
+.simple
+{
+    padding-top: 10px;
+    padding-left: 200px; 
+    margin: 20px auto;                 
+    border-radius: 10px;               
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+    max-width: 600px;
+    margin-top:150px;
+}
+
+.complex
+{
+    padding-top: 10px;
+    padding-left: 200px; 
+    margin: 20px auto;                 
+    border-radius: 10px;               
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+    max-width: 600px;
+    margin-top:50px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+<h1>Dynamic Color Change</h1>
+<br>
+<label>Enter Color : </label>
+<input type="text" [(ngModel)]="colorVar" (ngModelChange)="onColorChange($event)">
+<br><br>
+<button [ngStyle]="{'background-color':colorVar}">Submit</button>
+
+<p *ngIf="errorMsg">{{ errorMsg }}</p>
